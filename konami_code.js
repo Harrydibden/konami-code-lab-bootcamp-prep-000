@@ -28,7 +28,7 @@ function keyDown(e) {
   }
 }
 
-const bodySelect = document.getElement('body');
+const bodySelect = document.getElementByC('body');
 
 bodySelect.addEventListener("onkeydown", keyDown(e));
 

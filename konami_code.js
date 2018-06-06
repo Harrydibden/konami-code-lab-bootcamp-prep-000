@@ -25,6 +25,7 @@ function init(e) {
   } else {
     i = 0;
   }
+  console.log(i);
 }
 
 document.body.addEventListener('keydown', init);

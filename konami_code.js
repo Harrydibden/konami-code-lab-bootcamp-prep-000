@@ -30,5 +30,5 @@ function keyDown(e) {
 
 const bodySelect = document.querySelector('body');
 
-bodySelect.
+bodySelect.onKe
 

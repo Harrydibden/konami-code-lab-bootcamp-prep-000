@@ -13,7 +13,7 @@ const codes = [
 
 var i = 0;
 
-function keyDown(e) {
+function keyDownHandler(e) {
   var key = e.key;
   console.log(key);
   if(key === codes[i]){
@@ -28,5 +28,5 @@ function keyDown(e) {
   }
 }
 
-document.body.keyDown()
+document.body.keydown(keyDownHandler(e));
 

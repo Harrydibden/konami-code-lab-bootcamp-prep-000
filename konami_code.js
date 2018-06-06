@@ -24,7 +24,6 @@ function keyDownHandler(e) {
     } 
   } else {
     i = 0;
-    alert("Start Again");
   }
 }
 

@@ -15,7 +15,7 @@ var i = 0;
 
 function init(e) {
   var key = e.key;
-  console.log("hi");
+  console.log(key);
   if(key === codes[i]){
     i++;
     if(i === codes.length){
